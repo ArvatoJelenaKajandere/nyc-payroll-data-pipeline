@@ -1,0 +1,21 @@
+{
+	"name": "adf-nycpayroll-jelena",
+	"properties": {
+		"globalParameters": {
+			"global_param_fiscalyear": {
+				"type": "int",
+				"value": 2020
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a7b606e4-0075-401e-9777-1e389f623e2d",
+		"tenantId": "f958e84a-92b8-439f-a62d-4f45996b6d07"
+	}
+}
